@@ -81,3 +81,4 @@ def CONTR(X):
     ynew = scaler_y.inverse_transform(ynew)
     Xnew = scaler_x.inverse_transform(Xnew)
     return ynew[0] #Résultat du Contrôle
+#n
